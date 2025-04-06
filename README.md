@@ -12,7 +12,7 @@ Additionally, `global-proxy-agent` includes a powerful `CLI` for managing proxy 
 To install `global-proxy-agent`, use npm:
 
 ```bash
-npm install global-proxy-agent
+npm i global-proxy-agent
 ```
 
 Or with Yarn:
