@@ -1,13 +1,18 @@
 export { setupGlobalProxyAgent } from './setup';
 export { bootstrap } from './bootstrap';
+
 export { createSmartProxyAgent } from './agent/createSmartProxyAgent';
 export { resolveProxyForUrl } from './agent/resolveProxyForUrl';
 
+export { setGlobalProxy } from './utils/setGlobalProxy';
+export { setGlobalNoProxy } from './utils/exclude';
+
 export {
-  getCurrentProxy,
-  getExcludedDomains,
-  resetProxySettings,
-  globalState
+    globalState,
+    setAgent,
+    getCurrentProxy,
+    getExcludedDomains,
+    resetProxySettings,
 } from './config/state';
 
 export {
@@ -16,4 +21,3 @@ export {
   logger
 } from './config/logger';
 
-export { setGlobalNoProxy } from './utils/exclude';

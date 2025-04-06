@@ -1,0 +1,57 @@
+{
+  "name": "global-proxy-agent",
+  "version": "1.0.0",
+  "description": "A universal proxy agent for Node.js that combines environment-variable-based proxy resolution with smart protocol-aware agent selection. Automatically supports HTTP, HTTPS, SOCKS, and PAC proxies using a modular, runtime-configurable approach.",
+  "main": "src/index.ts",
+  "bin": {
+    "global-proxy-agent": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnshSinghSonkhia/global-proxy-agent.git"
+  },
+  "keywords": [
+    "proxy",
+    "http",
+    "https",
+    "http-proxy",
+    "https-proxy",
+    "socks",
+    "socks-proxy",
+    "pac",
+    "pac-proxy",
+    "global-agent",
+    "proxy-agent",
+    "global-proxy",
+    "node",
+    "node-proxy-agent",
+    "http-agent",
+    "https-agent",
+    "smart-proxy",
+    "auto-proxy",
+    "environment-proxy",
+    "global-proxy-manager"
+  ],
+  "author": "Ansh Singh Sonkhia",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/AnshSinghSonkhia/global-proxy-agent/issues"
+  },
+  "homepage": "https://github.com/AnshSinghSonkhia/global-proxy-agent#readme",
+  "dependencies": {
+    "proxy-agent": "^6.5.0",
+    "roarr": "^7.21.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@types/proxy-from-env": "^1.0.4",
+    "eslint": "^9.24.0",
+    "prettier": "^3.5.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "yargs": "^17.7.2"
+  }
+}

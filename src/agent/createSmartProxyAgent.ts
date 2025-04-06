@@ -1,4 +1,4 @@
-import ProxyAgent from 'proxy-agent';
+import { ProxyAgent } from 'proxy-agent';
 import { logger } from '../config/logger';
 
 export function createSmartProxyAgent(options?: { timeout?: number }) {
