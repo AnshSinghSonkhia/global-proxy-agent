@@ -21,8 +21,6 @@ Or with Yarn:
 yarn add global-proxy-agent
 ```
 
-Here’s a **README usage section** for all your exported functions, written clearly for users who will import and use your package:
-
 ---
 
 ## 📦 Usage
