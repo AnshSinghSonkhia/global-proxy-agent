@@ -2,12 +2,13 @@
   "name": "global-proxy-agent",
   "version": "1.0.0",
   "description": "A universal proxy agent for Node.js that combines environment-variable-based proxy resolution with smart protocol-aware agent selection. Automatically supports HTTP, HTTPS, SOCKS, and PAC proxies using a modular, runtime-configurable approach.",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "bin": {
     "global-proxy-agent": "./bin/cli.js"
   },
   "scripts": {
-    "test": "jest"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -46,9 +47,11 @@
     "roarr": "^7.21.1"
   },
   "devDependencies": {
+    "@types/jest": "^29.5.14",
     "@types/node": "^22.14.0",
     "@types/proxy-from-env": "^1.0.4",
     "eslint": "^9.24.0",
+    "jest": "^29.7.0",
     "prettier": "^3.5.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3",

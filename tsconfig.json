@@ -1,15 +1,18 @@
 {
     "compilerOptions": {
       "target": "ES2020",
-      "module": "CommonJS",
-      "lib": ["ES2020"],
-      "declaration": true,
-      "outDir": "dist",
-      "rootDir": "src",
-      "esModuleInterop": true,
+      "module": "commonjs",
       "strict": true,
-      "typeRoots": ["./types", "./node_modules/@types"]
+      "esModuleInterop": true,
+      "moduleResolution": "node",
+      "forceConsistentCasingInFileNames": true,
+      "skipLibCheck": true,
+      "outDir": "dist"
     },
-    "include": ["src/**/*", "bin/**/*", "**/*.ts", "types/global.d.ts"]
+    "include": [
+      "src/**/*",
+      "bin/**/*",
+      "types/global.d.ts"
+    ]
   }
   

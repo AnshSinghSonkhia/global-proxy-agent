@@ -4,6 +4,9 @@ A universal proxy agent for Node.js that combines environment-variable-based pro
 
 Additionally, `global-proxy-agent` includes a powerful `CLI` for managing proxy settings directly from the terminal. This allows users to configure proxies, excluded domains, and logging without writing any code.
 
+[![npm](https://img.shields.io/npm/v/global-proxy-agent.svg)](https://www.npmjs.com/package/global-proxy-agent)  [![License](https://img.shields.io/npm/l/global-proxy-agent.svg)](LICENSE) [![Under Development](https://img.shields.io/badge/status-under--development-orange)](https://github.com/AnshSinghSonkhia/global-proxy-agent)  [![Open for Contribution](https://img.shields.io/badge/contributions-welcome-brightgreen)](https://github.com/AnshSinghSonkhia/global-proxy-agent/issues)
+
+
 ## Installation
 
 To install `global-proxy-agent`, use npm:
